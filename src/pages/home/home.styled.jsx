@@ -11,5 +11,9 @@ export const CategoryMenu = styled.div`
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin: 30px 0
+    margin: 100px 0;
+
+    @media (max-width: 500px) {
+        margin: 50px 0
+    }
 `;

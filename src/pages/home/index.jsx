@@ -3,6 +3,7 @@ import React from 'react';
 import Banner from '../../components/banner';
 import CategoryMenuCard from '../../components/categoryMenuCard';
 import { LayoutFluid } from '../../container/layout';
+import Story from '../../components/story';
 
 import MainCourse from '../../assets/images/générals/plats.png'
 import SoupsSalads from '../../assets/images/générals/soupes.png'
@@ -15,7 +16,7 @@ export default function Home () {
     return (
         <Root className='home'>
             <Banner/>
-            <LayoutFluid>
+            <LayoutFluid style={{ width: '90%' }}>
                 <CategoryMenu>
                     <CategoryMenuCard image={MainCourse} span={"Plats principaux"}/>
                     <CategoryMenuCard image={SoupsSalads} span={"Soupes et Salades"}/>
@@ -23,6 +24,7 @@ export default function Home () {
                     <CategoryMenuCard image={Desserts} span={"Desserts"}/>
                 </CategoryMenu>
             </LayoutFluid>
+            <Story/>
         </Root>
     );
 };

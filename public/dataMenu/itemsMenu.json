@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Thé",
+        "category": "Boisson",
+        "price": 2.49,
+        "tags": ["menthe", "fruits rouges", "péche"],
+        "stars": 4,
+        "image": "../../"
+      },
+      {
+        "id": 5,
+        "name": "Café",
+        "category": "Boisson",
+        "price": 2.99,
+        "tags": ["café", "chaud", "boisson"],
+        "stars": 4,
+        "image": "cafe.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Jus d'orange frais",
+        "category": "Boisson",
+        "price": 3.49,
+        "tags": ["jus", "orange", "frais", "boisson"],
+        "stars": 5,
+        "image": "jus-orange.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Bière pression",
+        "category": "Boisson",
+        "price": 4.99,
+        "tags": ["bière", "alcool", "boisson"],
+        "stars": 4,
+        "image": "biere.jpg"
+      }
+  ]
+  
