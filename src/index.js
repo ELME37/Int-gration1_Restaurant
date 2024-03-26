@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
 import Router from './router';
-import Layout from './composants/layout';
+import { GlobalStyle } from './assets/styles/globalStyles.styled';
+import LayoutDefault from './container/layout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <BrowserRouter>
-    <Layout>
+    <GlobalStyle/>
+    <LayoutDefault>
       <Router />
-    </Layout>
+    </LayoutDefault>
   </BrowserRouter>
 );

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemple de div avec style</title>
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #710c19;
+    }
+
+    section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        transform-style: preserve-3d;
+        perspective: 500px;
+    }
+    
+    section h2 {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        line-height: 100vh;
+        font-size: 10vw;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner .blocks {
+        position: relative;
+        display: block;
+        width: 25vw;
+        height: 25vh;
+        overflow: hidden;
+        animation: animate 2s ease-in-out forwards;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: translateX(-300px);
+            background-image: url(src/assets/images/banner/banner2.jpg);
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+        100% {
+            transform: translateX(0);
+            background-image: url(src/assets/images/banner/banner2.jpg);
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+    }
+
+</style>
+</head>
+<body>
+<section>
+    <h2>animation</h2>
+    <div class="banner">
+        <div class="blocks"></div>
+    </div>
+</section>
+<script>
+    const banner = document.querySelector('.banner');
+    const blocks = document.querySelectorAll('.blocks');
+
+    for (let i = 1; i < 20; i++) {
+        const newblock = document.createElement('div');
+        newblock.classList.add('blocks');
+        banner.appendChild(newblock)
+        
+        const duration = i * 0.05 ;
+        newblock.style.animationDuration = 2+duration+'s';
+        newblock.style.animationDelay = duration+'s';
+    }
+</script>
+</body>
+</html>
