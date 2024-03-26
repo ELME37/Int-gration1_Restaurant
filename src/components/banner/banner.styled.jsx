@@ -1,7 +1,8 @@
 import styled, { keyframes } from 'styled-components';
 
-export const BannerStyle = styled.div`
+import { colors } from '../../utils/colors';
 
+export const Root = styled.div`
     position: relative;
 `;
 
@@ -16,7 +17,7 @@ const slideDown = keyframes`
   }
 `;
 
-export const Img = styled.img`
+export const Image = styled.img`
     width: 100%;
     aspect-ratio: 16/9;
     opacity: 0;
@@ -49,6 +50,11 @@ export const H1 = styled.h1`
     opacity: 0;
     transform: translate(-50%, -50%);
     animation: ${slideLeft} 2s ease-in-out forwards 2s;
+
+    @media (max-width: 800px) {
+      font-size: 11vw;
+      top: 45%;
+    }
 `;
 
 export const Svg = styled.svg`
@@ -76,7 +82,7 @@ const scale = keyframes`
 
 export const Span = styled.span`
     font-family: "Amatic SC";
-    color: #cdaa7c;
+    color: ${colors.gold};
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -88,6 +94,14 @@ export const Span = styled.span`
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: ${scale} 2s ease-in-out 1s forwards;
+
+    @media (max-width: 800px) {
+      font-size: 4vw;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 5vw;
+    }
 `;
 
 export const CurvedText = styled.text`
@@ -97,8 +111,15 @@ export const CurvedText = styled.text`
     text-align: center;
     line-height: 100vh;
     font-size: 3vw;
-    fill: #cdaa7c;
+    fill: ${colors.gold};
     opacity: 0;
     animation: ${slideDown} 1.5s ease-in-out 0.5s forwards;
   
+    @media (max-width: 800px) {
+      font-size: 4vw;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 5vw;
+    }
 `;
