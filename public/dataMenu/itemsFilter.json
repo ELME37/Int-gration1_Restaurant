@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Plats principaux",
+        "image": "../assets/images/filter/plats_filter.png"
+    },
+
+    {
+        "id": 2,
+        "name": "Soupes et Salades",
+        "image": "../assets/images/filter/soupesetsalades_filter.png"
+    },
+    {
+        "id": 3,
+        "name": "Boissons",
+        "image": "../assets/images/filter/boissons_filter.png"
+    },
+    {
+        "id": 4,
+        "name": "Desserts",
+        "image": "../assets/images/filter/desserts_filter.png"
+    }
+]

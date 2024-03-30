@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "image": "../assets/images/slider/slide1.jpg"
+    },
+
+    {
+        "id": 2,
+        "image": "../assets/images/slider/slide3.png"
+    },
+    {
+        "id": 3,
+        "image": "../assets/images/slider/slide2.jpg"
+    },
+    {
+        "id": 4,
+        "image": "../assets/images/slider/slide4.png"
+    },
+    {
+        "id": 5,
+        "image": "../assets/images/slider/slide5.png"
+    },
+    {
+        "id": 6,
+        "image": "../assets/images/slider/slide6.png"
+    }
+]

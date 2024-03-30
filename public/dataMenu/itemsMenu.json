@@ -1,39 +1,165 @@
 [
     {
-        "id": 1,
-        "name": "Thé",
-        "category": "Boisson",
-        "price": 2.49,
-        "tags": ["menthe", "fruits rouges", "péche"],
+      "id": 1,
+      "name": "Thé",
+      "categoryId": 3,
+      "price": 2.49,
+      "tags": ["menthe", "fruits rouges", "péche"],
+      "stars": 4,
+      "image": "../assets/images/boissons/boisson1.png"
+    },
+    {
+      "id": 2,
+      "name": "Café",
+      "categoryId": 3,
+      "price": 2.99,
+      "tags": ["arôme", "torréfaction", "arabica"],
+      "stars": 4,
+      "image": "../assets/images/boissons/boisson2.png"
+    },
+    {
+      "id": 3,
+      "name": "Jus d'orange frais",
+      "categoryId": 3,
+      "price": 3.49,
+      "tags": ["vitamine C", "rafraîchissant", "Fruits"],
+      "stars": 5,
+      "image": "../assets/images/boissons/boisson3.png"
+    },
+    {
+      "id": 4,
+      "name": "Bière pression",
+      "categoryId": 3,
+      "price": 4.99,
+      "tags": ["mousse", "saveurs", "artisanale"],
+      "stars": 4,
+      "image": "../assets/images/boissons/boisson4.png"
+    },
+    {
+      "id": 5,
+      "name": "Cheesecake aux fruits rouges",
+      "categoryId": 4,
+      "price": 7.49,
+      "tags": ["plaisir", "fruits rouges", "biscuit"],
+      "stars": 5,
+      "image": "../assets/images/desserts/dessert1.png"
+    },
+    {
+      "id": 6,
+      "name": "Riz au lait",
+      "categoryId": 4,
+      "price": 4.99,
+      "tags": ["caramel", "coulis fruits rouges", "vanille"],
+      "stars": 3,
+      "image": "../assets/images/desserts/dessert2.png"
+    },
+    {
+      "id": 7,
+      "name": "Tiramisu",
+      "categoryId": 4,
+      "price": 6.49,
+      "tags": ["spéculos", "café", "mascarpone"],
+      "stars": 4,
+      "image": "../assets/images/desserts/dessert3.png"
+    },
+    {
+      "id": 8,
+      "name": "Tarte citron meringuée",
+      "categoryId": 4,
+      "price": 5.99,
+      "tags": ["acidulé", "meringue", "tarte"],
+      "stars": 4,
+      "image": "../assets/images/desserts/dessert4.png"
+    },
+    {
+      "id": 9,
+      "name": "Big Burger",
+      "categoryId": 1,
+      "price": 15.00,
+      "tags": ["gourmand", "original", "réconfortant"],
+      "stars": 4,
+      "image": "../assets/images/plats/plat1.png"
+    },
+    {
+        "id": 10,
+        "name": "Croque Monsieur revisité",
+        "categoryId": 1,
+        "price": 9.00,
+        "tags": ["croustillant", "fromage", "savoureux"],
         "stars": 4,
-        "image": "../../"
-      },
-      {
-        "id": 5,
-        "name": "Café",
-        "category": "Boisson",
-        "price": 2.99,
-        "tags": ["café", "chaud", "boisson"],
-        "stars": 4,
-        "image": "cafe.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Jus d'orange frais",
-        "category": "Boisson",
-        "price": 3.49,
-        "tags": ["jus", "orange", "frais", "boisson"],
+        "image": "../assets/images/plats/plat2.png"
+    },
+    {
+        "id": 11,
+        "name": "Moules",
+        "categoryId": 1,
+        "price": 10.00,
+        "tags": ["frais", "fruits de mer", "saison"],
         "stars": 5,
-        "image": "jus-orange.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Bière pression",
-        "category": "Boisson",
-        "price": 4.99,
-        "tags": ["bière", "alcool", "boisson"],
+        "image": "../assets/images/plats/plat3.png"
+    },
+    {
+        "id": 12,
+        "name": "Pâtes bolognaises",
+        "categoryId": 1,
+        "price": 9.00,
+        "tags": ["italien", "savoureux", "généreux"],
         "stars": 4,
-        "image": "biere.jpg"
-      }
+        "image": "../assets/images/plats/plat4.png"
+    },
+    {
+        "id": 13,
+        "name": "Escalope de poisson tagliatelle",
+        "categoryId": 1,
+        "price": 13.50,
+        "tags": ["frais", "savoureux", "parfumé"],
+        "stars": 5,
+        "image": "../assets/images/plats/plat5.png"
+    },
+    {
+        "id": 14,
+        "name": "Suprême de poulet épinard",
+        "categoryId": 1,
+        "price": 16.00,
+        "tags": ["savoureux", "équilibré", "coloré"],
+        "stars": 5,
+        "image": "../assets/images/plats/plat6.png"
+    },
+    {
+      "id": 15,
+      "name": "Salades printanières",
+      "categoryId": 2,
+      "price": 6.99,
+      "tags": ["fraîcheur", "coloré", "légumes de saison"],
+      "stars": 4,
+      "image": "../assets/images/soupes et salades/salade1.png"
+    },
+    {
+        "id": 16,
+        "name": "Salade fraîcheur",
+        "categoryId": 2,
+        "price": 5.49,
+        "tags": ["croquant", "léger", "vinaigrette maison"],
+        "stars": 4,
+        "image": "../assets/images/soupes et salades/salade2.png"
+    },
+    {
+        "id": 17,
+        "name": "Soupe de tomate",
+        "categoryId": 2,
+        "price": 4.99,
+        "tags": ["réconfortant", "tomates fraîches", "parfumé"],
+        "stars": 4,
+        "image": "../assets/images/soupes et salades/soupe1.png"
+    },
+    {
+        "id": 18,
+        "name": "Soupe 4 saisons",
+        "categoryId": 2,
+        "price": 5.99,
+        "tags": ["varié", "saisonnier", "réconfortant"],
+        "stars": 4,
+        "image": "../assets/images/soupes et salades/soupe2.png"
+    }
   ]
   
