@@ -12,6 +12,7 @@ import MenuItem from '../../menuItem';
 import GalleryItem from '../../components/galleryItem';
 import Modal from '../../container/modal';
 import Button from '../../components/button';
+import FormReservation from '../../container/formReservation';
 
 import MainCourse from '../../assets/images/générals/plats.png'
 import SoupsSalads from '../../assets/images/générals/soupes.png'
@@ -142,6 +143,7 @@ export default function Home () {
                     <SpanTitle>~ Check out our place ~</SpanTitle>
                 </Reservation>
             </LayoutFluid>
+            <FormReservation/>
             <Modal isOpen={isOpen} onClose={closeModal}>
                 <CarouselGallery images={itemGallery} initialSlide={selectedImageIndex}/>
             </Modal>
