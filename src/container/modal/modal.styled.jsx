@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { colors } from "../../utils/colors";
+
 export const Root = styled.div`
     position: fixed;
     top: 0;
@@ -11,15 +13,20 @@ export const Root = styled.div`
 `;
 
 export const Content = styled.div`
-    
+
 `;
 
-export const Button = styled.button`
+export const Svg = styled.svg`
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
     cursor: pointer;
+    width: 30px;
+    height: 30px;
+    fill: ${colors.white};
+
+    @media (max-width: 500px) {
+        width: 20px;
+        height: 20px;
+    }
 `;

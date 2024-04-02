@@ -41,16 +41,49 @@ export const Filter = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    flex-wrap: wrap;
+    width: 60%;
     margin-top: 80px;
     margin-bottom: 50px;
+
+    @media (max-width: 1150px) {
+        width: 70%;
+    }
+
+    @media (max-width: 1000px) {
+        width: 80%;
+    }
+
+    @media (max-width: 800px) {
+        width: 80%;
+    }
+
+    @media (max-width: 500px) {
+        width: 100%;
+    }
 `;
 
 export const Menu = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+    @media (max-width: 1150px) {
+        width: 70%;
+    }
+
+    @media (max-width: 1000px) {
+        width: 80%;
+    }
+
+    @media (max-width: 800px) {
+        width: 90%;
+    }
+
+    @media (max-width: 650px) {
+        width: 100%;
+    }
 `;
 
 export const Gallery = styled.div`
@@ -69,6 +102,15 @@ export const GalleryPhoto = styled.div`
     width: 80%;
     aspect-ratio: 16/6;
     margin-top: 80px;
+
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
+
+    @media (max-width: 700px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const Chef = styled.div`
@@ -88,6 +130,18 @@ export const Table = styled.div`
     margin-top: 100px;
     width: 100%;
     aspect-ratio: 16/6;
+
+    @media (max-width: 900px) {
+        aspect-ratio: 16/7;
+    }
+
+    @media (max-width: 700px) {
+        aspect-ratio: 16/8;
+    }
+
+    @media (max-width: 500px) {
+        aspect-ratio: 16/9;
+    }
 `;
 
 export const TableImage = styled.img`
@@ -112,6 +166,18 @@ export const TableH3 = styled.h3`
     color: ${colors.gold};
     font-size: 4vw;
     margin-bottom: 10px;
+
+    @media (max-width: 1000px) {
+        font-size: 5vw;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 6vw;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 7vw;
+    }
 `;
 
 export const TableSpan = styled.span`
@@ -120,6 +186,18 @@ export const TableSpan = styled.span`
     color: ${colors.white};
     text-transform: uppercase;
     font-size: 1.5vw;
+
+    @media (max-width: 1000px) {
+        font-size: 2vw;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 2.5vw;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 3vw;
+    }
 `;
 
 export const Reservation = styled.div`
@@ -138,10 +216,34 @@ export const H2 = styled.h2`
     font-size: 3vw;
     letter-spacing: 4px;
     color: ${colors.white};
+
+    @media (max-width: 1000px) {
+        font-size: 4vw;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 5vw;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 6vw;
+    }
 `;
 
 export const SpanTitle = styled.span`
     font-family: "Satisfy";
     font-size: 2vw;
     color: ${colors.gold};
+
+    @media (max-width: 1000px) {
+        font-size: 3vw;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 4vw;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 5vw;
+    }
 `;

@@ -17,11 +17,32 @@ export const ContainerSlide = styled.div`
   padding: 60px;
 `;
 
+export const ContainerSlide2 = styled.div`
+  padding: 60px;
+
+  @media (max-width: 800px) {
+    padding: 0;
+    padding-top: 60px;
+}
+`;
+
 export const Slide = styled.img`
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
+`;
+
+export const Slide2 = styled.img`
+  width: 80%;
+  aspect-ratio: 16/12;
+  margin: 0 auto;
+  border-radius: 20px;
+  object-fit: cover;
+
+  @media (max-width: 500px) {
+    width: 95%;
+}
 `;
 
 export const SlideInfo = styled.div`

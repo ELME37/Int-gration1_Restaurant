@@ -112,7 +112,7 @@ export default function Home () {
                     </Filter>
                     <Menu>
                         {filteredMenu.map((menuItem, index) => (
-                            <MenuItem key={index} name={menuItem.name} />
+                            <MenuItem key={index} image={menuItem.image} name={menuItem.name} price={menuItem.price} tags={menuItem.tags}/>
                         ))}
                     </Menu>
                 </Carte>

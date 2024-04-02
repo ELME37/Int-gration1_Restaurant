@@ -15,7 +15,7 @@
       "price": 2.99,
       "tags": ["arôme", "torréfaction", "arabica"],
       "stars": 4,
-      "image": "../assets/images/boissons/boisson2.png"
+      "image": "../assets/images/boissons/boisson4.png"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "price": 4.99,
       "tags": ["mousse", "saveurs", "artisanale"],
       "stars": 4,
-      "image": "../assets/images/boissons/boisson4.png"
+      "image": "../assets/images/boissons/boisson2.png"
     },
     {
       "id": 5,

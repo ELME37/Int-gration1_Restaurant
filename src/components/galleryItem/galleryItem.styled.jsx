@@ -4,8 +4,8 @@ import { colors } from "../../utils/colors";
 
 export const Svg = styled.svg`
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
     border-radius: 50%;
     fill : ${colors.white};
@@ -13,6 +13,11 @@ export const Svg = styled.svg`
     opacity: 0;
     transform: scale(0);
     transition: all 0.3s ease;
+
+    @media (max-width: 700px) {
+      width: 50px;
+      height: 50px;
+    }
 `;
 
 export const Image = styled.img`
@@ -20,6 +25,10 @@ export const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    @media (max-width: 700px) {
+      position: relative;
+  }
 `;
 
 export const Root = styled.div`

@@ -14,6 +14,11 @@ export const Root = styled.div`
     &:hover {
         opacity: 1;
     }
+
+    @media (max-width: 800px) {
+        width: calc(100% / 2);
+        margin-bottom: 30px;
+    }
 `;
 
 export const Icon = styled.img`
@@ -27,4 +32,16 @@ export const NameItem = styled.span`
     text-align: center;
     text-wrap: nowrap;
     color: ${colors.white};
+
+    @media (max-width: 1150px) {
+        font-size: 16px;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 14px;
+    }
 `;

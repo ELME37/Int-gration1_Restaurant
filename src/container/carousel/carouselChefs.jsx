@@ -17,6 +17,20 @@ export default function CarouselChefs ({ slides }) {
         slidesToScroll: 1,
         cssEase: "linear",
         arrows: false,
+        responsive: [
+            {
+              breakpoint: 1000,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 650,
+              settings: {
+                slidesToShow: 1,
+              }
+            }
+          ],
         customPaging: i => (
           i === activeDotIndex ? <ActiveDot /> : <CustomDot />
         ),

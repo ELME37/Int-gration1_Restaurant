@@ -22,6 +22,14 @@ export const ContainerForm = styled.div`
 export const ItemForm = styled.div`
     width: calc(100% / 3  - 30px);
     margin-bottom: 30px;
+
+    @media (max-width: 1000px) {
+      width: calc(100% / 2  - 30px);
+    }
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
 `;
 
 export const Select = styled.select`
@@ -91,7 +99,6 @@ export const StyledDatePickerGeneral = styled.div`
   .react-datepicker__input-container {
     position: relative;
   }
-
 `;
 
 export const Svg = styled.svg`

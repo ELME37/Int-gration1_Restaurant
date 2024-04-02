@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { Root2, ContainerSlide, Slide } from './carousel.styled';
+import { Root2, ContainerSlide2, Slide2 } from './carousel.styled';
 
 export default function CarouselGallery ({ images, initialSlide }) {
 
@@ -22,9 +22,9 @@ export default function CarouselGallery ({ images, initialSlide }) {
         <Root2>
             <Slider {...settings}>
                 {images.map((gallery, index) => (
-                    <ContainerSlide key={index}>
-                        <Slide src={gallery.image} alt="restaurant" />
-                    </ContainerSlide>
+                    <ContainerSlide2 key={index}>
+                        <Slide2 src={gallery.image} alt="restaurant" />
+                    </ContainerSlide2>
                 ))}
             </Slider>
         </Root2>

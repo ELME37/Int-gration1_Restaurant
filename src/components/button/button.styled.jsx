@@ -9,7 +9,7 @@ export const Root = styled.button`
     border-radius: 20px;
     background: transparent;
     margin-top: 50px;
-    padding: 20px 30px;
+    padding: 2% 4%;
     text-transform: uppercase;
     overflow: hidden;
     z-index: 1;
@@ -33,5 +33,9 @@ export const Root = styled.button`
 
     &:hover::before {
         left: 0;
+    }
+
+    @media (max-width: 500px) {
+        margin-top: 20px;
     }
 `;

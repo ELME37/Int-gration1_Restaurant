@@ -22,6 +22,26 @@ export default function CarouselSpecialties ({ slides }) {
     autoplaySpeed: 5000,
     cssEase: "linear",
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ],
     customPaging: i => (
       i === activeDotIndex ? <ActiveDot /> : <CustomDot />
     ),
