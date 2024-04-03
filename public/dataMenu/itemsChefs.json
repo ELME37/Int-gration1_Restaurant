@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
-        "image": "../assets/images/chefs/chef1.jpg"
+        "image": "/assets/images/chefs/chef1.jpg"
     },
 
     {
         "id": 2,
-        "image": "../assets/images/chefs/chef2.jpg"
+        "image": "/assets/images/chefs/chef2.jpg"
     },
     {
         "id": 3,
-        "image": "../assets/images/chefs/chef3.png"
+        "image": "/assets/images/chefs/chef3.png"
     },
     {
         "id": 4,
-        "image": "../assets/images/chefs/chef4.png"
+        "image": "/assets/images/chefs/chef4.png"
     },
     {
         "id": 5,
-        "image": "../assets/images/chefs/chef5.png"
+        "image": "/assets/images/chefs/chef5.png"
     },
     {
         "id": 6,
-        "image": "../assets/images/chefs/chef6.png"
+        "image": "/assets/images/chefs/chef6.png"
     }
 ]
